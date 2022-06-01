@@ -1,0 +1,162 @@
+
+/* for portrait mode */
+@media (min-width:320px) and (max-width:480px){
+    .header{
+        height: auto;
+        top: 0;
+    }
+    .header:hover .nav{
+        height: 250px;
+    }
+    .container{
+        height: auto;
+    }
+    .logo{
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+        width: 100%;
+    }
+    .navigation{
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .nav{
+        height: 0px;
+        overflow: hidden;
+        transition: .4s;
+    }
+    .nav-link{
+        height: 50px;
+        width: 100%;
+        line-height: 50px;
+    }
+    .banner{
+        height: 200px;
+        margin-top: 50px;
+    }
+    .banner_img{
+        margin-top: 0px;
+    }
+    .place{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .place_img{
+        height: auto;
+    }
+    .place_desc{
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+    .about_image{
+        width: 100%;
+        height: auto;
+    }
+    .about_text{
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+        height: auto;
+    }
+    .highlight{
+        font-size: 20px;
+    }
+    .booking_title{
+        font-size: 25px;
+    }
+    .about_btn{
+        font-size: 10px;
+    }
+    .gall_image{
+        width: 50%;
+        height: 100px;
+    }
+}
+
+
+
+/* for Landscape mode */
+
+
+@media (min-width:481px) and (max-width:768px){
+    .header{
+        height: auto;
+        top: 0;
+    }
+    .header:hover .nav{
+        height: 250px;
+    }
+    .container{
+        height: auto;
+    }
+    .logo{
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+        width: 100%;
+    }
+    .navigation{
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .nav{
+        height: 0px;
+        overflow: hidden;
+        transition: .4s;
+    }
+    .nav-link{
+        height: 50px;
+        width: 100%;
+        line-height: 50px;
+    }
+    .banner{
+        height: 300px;
+        margin-top: 50px;
+    }
+    .banner_img{
+        margin-top: 0px;
+    }
+    .place{
+        width: 47%;
+        margin-bottom: 10px;
+    }
+    .place_img{
+        height: auto;
+    }
+    .place_desc{
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+    .about_image{
+        width: 100%;
+        height: auto;
+    }
+    .about_text{
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+        height: auto;
+    }
+    .highlight{
+        font-size: 20px;
+    }
+    .booking_title{
+        font-size: 25px;
+    }
+    .about_btn{
+        font-size: 10px;
+    }
+    .gall_image{
+        width: 50%;
+        height: 150px;
+    }
+}
